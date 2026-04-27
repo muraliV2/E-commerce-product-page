@@ -1,0 +1,148 @@
+#bord
+{
+    margin: 20px;
+    border: 0px;
+    background-color: white;
+}
+#navb {
+    
+    height: 60px;
+    width: 100%;
+    border: 1px solid none;
+
+    display: flex;              /* important */
+    align-items: center;        /* vertical center */
+    justify-content: flex-start;
+}
+
+#log {
+    margin-right: 0px;    
+    margin: 0 10px;     
+}
+#blo {
+    margin-left: 100px;  
+    display: flex;             
+    gap: 25px;                  
+}
+
+.we {
+    text-decoration: none;
+  color: rgb(159, 172, 172);
+  font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#right {
+    margin: 0 15px;
+    margin-left: auto;   /* 🔥 pushes to right */
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#right img {
+    width: 30px;
+    height: auto;
+}
+
+#out
+{
+    margin-top: 20px;
+   border: 1px solid black;
+
+    height: 400px;
+    width: 100%;
+    display: flex;
+    gap: 10%;
+    
+    
+}
+
+#one
+{
+    
+    border: 1px solid none;
+    height: inherit;
+    width: 45%;
+     display: flex;
+     align-items: center;
+justify-content: center;
+   
+}
+#two
+{
+    border: 1px solid black;
+    height: inherit;
+    width: 45%;
+      
+    
+}
+#ph
+{
+margin: 20px;
+height: 90%;
+width:55%;
+border-radius: 20px;
+margin-left: 330px;
+}
+#sn
+{
+  margin: 50px;
+  font-size: 10px;
+  color: rgb(104, 107, 107);
+  letter-spacing: 2px;
+  text-decoration: solid;
+
+}
+
+#jk
+{
+    margin: 50px;
+    font-size: 50px;
+    margin-top: -40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 80;
+}
+#pp
+{
+    margin: 50px;
+    color: rgb(104, 107, 107);
+    margin-right: 160px;
+    margin-top: -40px;
+    font-size: 16px;
+}
+#poi
+{
+    display: block;
+    margin: 50px;
+    color: black;
+    margin-top: -40px;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#jk1
+{
+    height: 20px;
+    width: 50px;
+    border: 1px solid black;
+    display: block;
+    text-align: center;
+    margin: 50px;
+    margin-top: -75px;
+    margin-left: 150px;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+}
+#poi1
+{
+    display: block;
+    margin: 50px;
+    color: black;
+    margin-top: -40px;
+    font-size: 15px;
+    text-decoration: line-through;
+    font-weight: bold;
+    color: rgb(104, 107, 107);
+}
