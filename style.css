@@ -32,12 +32,11 @@
 }
 #right {
     margin: 0 15px;
-    margin-left: auto;   /* 🔥 pushes to right */
+    margin-left: auto;   
     display: flex;
     align-items: center;
     gap: 20px;
 }
-
 #right img {
     width: 30px;
     height: auto;
