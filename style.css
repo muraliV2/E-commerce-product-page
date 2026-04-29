@@ -32,7 +32,11 @@
 }
 #right {
     margin: 0 15px;
+<<<<<<< HEAD
     margin-left: auto;   
+=======
+    margin-left: auto;  
+>>>>>>> 969e804 (second commit)
     display: flex;
     align-items: center;
     gap: 20px;
@@ -45,7 +49,7 @@
 #out
 {
     margin-top: 20px;
-   border: 1px solid black;
+   border: 1px solid none;
 
     height: 400px;
     width: 100%;
@@ -67,7 +71,7 @@ justify-content: center;
 }
 #two
 {
-    border: 1px solid black;
+    border: 1px solid none;
     height: inherit;
     width: 45%;
       
@@ -79,7 +83,7 @@ margin: 20px;
 height: 90%;
 width:55%;
 border-radius: 20px;
-margin-left: 330px;
+margin-left: 300px;
 }
 #sn
 {
@@ -143,3 +147,71 @@ margin-left: 330px;
     font-weight: bold;
     color: rgb(104, 107, 107);
 }
+<<<<<<< HEAD
+=======
+#mm
+{
+     margin: 50px;
+      display: grid;
+      grid-auto-flow: column;
+      margin-top: -35px;
+      height: 28px;
+      width: 95px;
+      border-radius: 4px;
+      border: 1px solid none;
+      background-color: rgb(227, 230, 233);
+       align-items: center;
+}
+#min
+{
+    justify-self: flex-start;
+    margin-left: 5px;
+
+}
+#nx
+{
+    margin: 0px;
+    border: 0px;
+font-size: 15px;
+justify-self: center;
+font-weight: 200;
+}
+#max
+{
+    justify-self: flex-end;
+    margin-right: 5px;
+}
+#lkm
+{
+    height: 28px;
+    width: 150px;
+    border: 1px solid none;
+    margin-top: -77px;
+    margin-left: 190px;
+    background-color: rgb(237, 128, 89);
+    border-radius: 3px;
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    gap: 5px;
+    
+}
+#cart
+{
+   margin: 0px;
+    border: 0px;
+    margin-left: 20px;
+    height: 18px;
+    width: 15px;
+    filter: brightness(0.4);
+}
+#adds
+{
+margin: 0px;
+    border: 0px;
+    font-size: 13px;
+    color: black;
+    margin-right: 10px;
+    font-weight: 10;
+}
+>>>>>>> 969e804 (second commit)
